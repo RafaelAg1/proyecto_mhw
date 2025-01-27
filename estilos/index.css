@@ -1,0 +1,189 @@
+* {
+	font-family: "Montserrat", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	background-image: url(../imagenes/fondo_3.jpg);
+	
+}
+
+#logo_home {
+	display: flex;
+
+}
+
+img {
+	width: 100%;
+	min-width: 100px;
+}
+
+div#logo_home {
+	width: 5%;
+	display: flex;
+}
+
+#imagen_logo {
+	display: flex;
+	width: 100%;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#header {
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-bottom: rgba(255, 94, 0, 0.301) 5px solid;
+
+}
+
+#navegar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	width: 50%;
+}
+
+#header ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	list-style: none;
+	width: 100%;
+
+}
+
+#header ul>li {
+	margin-left: 15%;
+	font-size: 20px;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+
+}
+
+#iniciar_sesion {
+	margin-top: 3px;
+
+	display: flex;
+
+	background-color: rgba(247, 211, 164, 0.685);
+	border-radius: 5px;
+	flex-direction: column;
+}
+
+
+#iniciar_sesion input {
+	display: flex;
+	margin-left: 30px;
+	width: 80%;
+
+}
+
+#iniciar_sesion label {
+	font-weight: 600;
+}
+
+#iniciar_sesion>div {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+#enviar {
+	background-color: gray;
+	color: white;
+	width: 100%;
+	transition: background-color 0.2s ease;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: rgba(0, 0, 0, 0.219) 1px solid;
+
+}
+
+#enviar:hover {
+	cursor: pointer;
+	background-color: rgb(66, 66, 66);
+}
+
+#imagen_logo {
+	transition: 0.2s;
+}
+
+#imagen_logo:hover {
+	filter: opacity(0.5);
+}
+
+#navegar ul li {
+	transition: 0.2s;
+}
+
+#navegar ul li:hover {
+	filter: opacity(0.5);
+
+}
+#main_div {
+	display: flex;
+	flex-wrap: wrap;
+	width: 55%;
+	padding: 10px;
+	background-color: rgb(250, 235, 215);
+	border-radius: 5px;
+	margin-left: 5%;
+	margin-top: 5%;
+	text-align: justify;
+	border: 4px solid rgb(245, 220, 188);
+
+	
+}
+#main_div div{
+	width: 100%;
+	display: flex;
+}
+#video{
+	width: 30%;
+	padding: 5px;
+	display: flex;
+	border-radius: 15px;
+	float: right;
+	margin-right: 5%;
+	margin-top: -15%;
+	border: 4px solid rgb(245, 220, 188);
+	background-color: rgb(250, 235, 215);
+	justify-content: center;
+	
+}
+#video iframe{
+	width: 100%;
+	border-radius: 15px;
+	transition: 0.3s;
+	
+}
+#video:hover{
+	width: 35%;
+	background-color: black;
+	border: none;
+}
+#motivo_div{
+	background-color: rgb(250, 235, 215);
+	margin-top: 30px;
+	width: 90%;
+	display: flex;
+	margin-left: 5%;
+	border-radius: 15px;
+	border: 4px solid rgb(245, 220, 188); 
+	flex-wrap: wrap;
+	text-align: justify;
+}
+#motivo_div>div{
+	width: 100%;
+}
+

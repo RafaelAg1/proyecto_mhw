@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monstruos</title>
+    <link rel="stylesheet" href="estilos/monstruos.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="header">
+            <div id="logo_home">
+                <a href="index.html"><img src="imagenes/MHW-logo.webp" alt="" id="imagen_logo"></a>
+            </div>
+            <div id="navegar">
+                <ul>
+                    <li><a href="armas.html">Armas</a></li>
+                    <li><a href="monstruos.html">Tabla de monstruos</a></li>
+                    <li><a href="info.html">Información</a></li>
+                </ul>
+            </div>
+            <div id="iniciar_sesion">
+                <form action="">
+                    <div id="usuario">
+                        <label for="usuario">Usuario:</label>   
+                        <input type="text" id="usuario" required minlength="4" placeholder="Introduzca el usuario..."> 
+                    </div>
+                    <div>
+                        <label for="contrasena">Contraseña:</label>
+                        <input type="password" id="contrasena" required minlength="7" placeholder="Introduzca la contraseña..."> 
+                    </div>
+                    <div>
+                        <button type="submit" id="enviar">Entrar</button>
+                    </div>
+                </form>
+            </div>
+        </nav>
+        <div id="div_main">
+            <table>
+                <thead>
+                  <tr id="texto_main">
+                    <th>Nombre del monstruo</th>
+                    <th>Hábitats</th>
+                    <th>Tipo de enemigo</th>
+                    <th>Debilidades</th>
+                    <th>Resistencias</th>
+                    <th>Foto</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Nergigante</td>
+                    <td>Yermo de las Agujas o Lecho de los Ancianos</td>
+                    <td>Dragón Anciano</td>
+                    <div class="debilidades">
+                        <td>
+                            <ul id="debilidades">
+                                <li id="rayo">Rayo</li>
+                                <li id="draco">Draco</li>
+                            </ul>
+                        </td>
+                    </div>
+                    
+                    <td>
+                        <ul id="resistencias">
+                            <li id="hielo">Hielo</li>
+                            <li id="fuego">Fuego</li>
+                            <li id="agua">Agua</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/nergigante_2.png" alt="" id="img_monstruos">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Kirin</td>
+                    <td>Altiplanos Coralinos</td>
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="fuego">Fuego</li>
+                            <li id="agua">Agua</li>
+                            <li id="hielo">Hielo</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul id="resistencias">
+                            <li id="paralisis">Paralisis</li>
+                            <li id="rayo">Rayo</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/kirin.webp" alt="" id="img_monstruos">
+                    </td>        
+                  </tr>
+                  <tr>
+                    <td>Teostra</td>
+                    <td>Yermo de Agujas, Lecho de los Ancianos y Tierras Destino</td>
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="agua">Agua</li>
+                            <li id="hielo">Hielo</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul id="resistencias">
+                            <li id="fuego">Fuego</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/teostra.webp" alt="" id="img_monstruos">
+                    </td>      
+                  </tr>
+                  <tr>
+                    <td>Lunastra</td>
+                    <td>Yermo de Agujas, Lecho de los Ancianos, Tierras Destino</td>
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="draco">Draco</li>
+                            <li id="hielo">Hielo</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul id="resistencias">
+                            <li id="fuego">Fuego</li>
+                            <li id="agua">Agua</li>
+                            <li id="rayo"> Rayo</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/lunastra.webp" alt="" id="img_monstruos">
+                    </td>      
+                  </tr>
+                  <tr>
+                    <td>Kushala Daora</td>
+                    <td>Bosque Primigenio, Lecho de los Ancianos y Tierras Destino</td>
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="agua">Rayo</li>
+                            <li id="hielo">Draco</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul id="resistencias">
+                            <li id="agua">Agua</li>
+                            <li id="hielo">Hielo</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/kushala_daora.webp" alt="" id="img_monstruos">
+                    </td>
+                          
+                  </tr>
+                  <tr>
+                    <td>Kulve Taroth</td>
+                    <td>Cavernas de El Dorado</td>
+
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="agua">Agua</li>
+                            <li id="hielo">Hielo</li>
+                            <li id="draco">Draco</li>
+                            <li id="rayo">Rayo</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul id="resistencias">
+                            <li id="fuego">Fuego</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/kulve_taroth.webp" alt="" id="img_monstruos">
+                    </td>      
+                  </tr>
+                  <tr>
+                    <td>Vaal Hazak</td>
+                    <td>Valle Putrefacto</td>
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="fuego">Fuego</li>
+                            <li id="draco">Draco</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul id="resistencias">
+                            <li id="agua">Agua</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/vaal_hazak_2.webp" alt="" id="img_monstruos">
+                    </td>      
+                  </tr>
+                  <tr>
+                    <td>Xeno'jiiva</td>
+                    <td>Lecho de los Ancianos</td>
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="veneno">Veneno</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul id="resistencias">
+                            <li id="sueño">Sueño</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/xeno_jiiva.webp" alt="" id="img_monstruos">
+                    </td>      
+                  </tr>
+                  <tr>
+                    <td>Namielle</td>
+                    <td>Altiplanos Coralinos y Tierras Destino</td>
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="fuego">Fuego</li>
+                            <li id="draco">Draco</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul id="resistencias">
+                            <li id="agua">Agua</li>
+                            <li id="hielo">Hielo</li>
+                            <li id="rayo">Rayo</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/namielle.webp" alt="" id="img_monstruos">
+                    </td>      
+                  </tr>
+                  <tr>
+                    <td>Shara Ishvalda</td>
+                    <td>Isla Origen</td>
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="hielo">Hielo</li>
+                            <li id="agua">Agua</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul id="resistencias">
+                            <li id="fuego">Fuego</li>
+                            <li id="draco">Draco</li>
+                            <li id="rayo">Rayo</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/sharaishvalada.webp" alt="" id="img_monstruos">
+                    </td>      
+                  </tr>
+                  <tr>
+                    <td>Safi'jiiva</td>
+                    <td>Valle Remoto</td>
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="draco">Draco</li>
+                            <li id="rayo">Rayo</li>
+                            <li id="hielo">Hielo</li>
+                            <li id="agua">Agua</li>
+                            <li id="fuego">Fuego</li>
+                        </ul>
+                    </td>
+                    <td>
+                       
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/safijiva.webp" alt="" id="img_monstruos"> 
+                    </td>      
+                  </tr>
+                  <tr>
+                    <td>Velkhana</td>
+                    <td>Bosque Primigenio, Yermo de Agujas, Altiplanos Coralinos, Valle Putrefacto, Lecho de los Ancianos, Arroyo de Escarcha y Tierras Destino</td>
+                    <td>Dragón Anciano</td>
+                    <td>
+                        <ul id="debilidades">
+                            <li id="fuego">Fuego</li>
+                            <li id="rayo">Rayo</li>
+                            <li id="draco">Draco</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul id="resistencias">
+                            <li id="hielo">Hielo</li>
+                            <li id="agua">Agua</li>
+                        </ul>
+                    </td>
+                    <td id="celda_img">
+                        <img src="imagenes/monstruos/Velkhana.webp" alt="" id="img_monstruos"> 
+                    </td>      
+                  </tr>
+                </tbody>
+              </table>
+              
+        </div>
+    </header>
+</body>
+</html>

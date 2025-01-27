@@ -1,0 +1,265 @@
+* {
+	font-family: "Montserrat", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	background-image: url(../imagenes/fondo_3.jpg);
+}
+
+#logo_home {
+	display: flex;
+
+}
+
+img {
+	width: 100%;
+	min-width: 100px;
+}
+
+div#logo_home {
+	width: 5%;
+	display: flex;
+}
+
+#imagen_logo {
+	display: flex;
+	width: 100%;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#header {
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-bottom: rgba(255, 94, 0, 0.301) 5px solid;
+
+}
+
+#navegar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	width: 50%;
+}
+
+#header ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	list-style: none;
+	width: 100%;
+
+}
+
+#header ul>li {
+	margin-left: 15%;
+	font-size: 20px;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	width: 100%;
+
+}
+
+#iniciar_sesion {
+	margin-top: 3px;
+	display: flex;
+	background-color: rgba(247, 211, 164, 0.685);
+	border-radius: 5px;
+	flex-direction: column;
+}
+
+#iniciar_sesion input {
+	display: flex;
+	margin-left: 30px;
+	width: 80%;
+
+}
+
+#iniciar_sesion label {
+	font-weight: 600;
+}
+
+#iniciar_sesion>div {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+#enviar {
+	background-color: gray;
+	color: white;
+	width: 100%;
+	transition: background-color 0.2s ease;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: rgba(0, 0, 0, 0.219) 1px solid;
+
+}
+
+#enviar:hover {
+	cursor: pointer;
+	background-color: rgb(66, 66, 66);
+}
+
+#imagen_logo {
+	transition: 0.2s;
+}
+
+#imagen_logo:hover {
+	filter: opacity(0.5);
+}
+
+#navegar ul li {
+	transition: 0.2s;
+}
+
+#navegar ul li:hover {
+	filter: opacity(0.5);
+
+}
+
+#div_main {
+	background-color: rgb(250, 235, 215);
+	border-radius: 5px;
+}
+
+#div_main h1 {
+	color: rgb(238, 171, 84);
+	font-weight: bold;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+#div_main h2 , summary{
+	color: rgb(238, 171, 84);
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+#div_main p {
+	padding: 10px;
+	text-align: justify;
+}
+
+#div_nergigante {
+	width: 100%;
+	display: flex;
+}
+#div_nergigante p{
+	display: flex;
+
+}
+#img_nergigante{
+	padding: 5px;
+	width: 150%;
+	margin-right: 15px;
+	border: 2px solid blue;
+	background-color:rgb(238, 191, 130);
+	display: flex;
+	justify-content: center;
+}
+#img_nergigante p{
+	color:black;
+	text-align: center;
+	display: flex;
+}
+#img_nergigante figure{
+	padding-right: 15px;
+	padding-bottom: 15px;
+
+}
+
+#img_nergigante figure figcaption{
+	text-align: center;
+}
+#img_nergigante figure img{
+	width: 110%;
+	height: 100%;
+}
+
+li#rayo {
+	font-size: 25px;
+	background-image: url(../imagenes/monstruos/debilidades/Rayo.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 30px;
+}
+li#draco {
+	font-size: 25px;
+	background-image: url(../imagenes/monstruos/debilidades/Draco.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 30px;
+}
+ul li ul{
+	list-style-type: none;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	padding-top: 5px;
+}
+.lista_esp{
+	list-style-type: circle;
+}
+li#escama {
+	font-size: 25px;
+	background-image: url(../imagenes/monstruos/drops/escala_dragon.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 40px;
+}
+li#coraza {
+	font-size: 25px;
+	background-image: url(../imagenes/monstruos/drops/coraza_nerg.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 40px;
+}
+li#garra {
+	font-size: 25px;
+	background-image: url(../imagenes/monstruos/drops/garra_nerg.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 40px;
+}
+li#cuerno {
+	font-size: 25px;
+	background-image: url(../imagenes/monstruos/drops/cuerno_nerg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 40px;
+}
+li#placa {
+	font-size: 25px;
+	background-image: url(../imagenes/monstruos/drops/placa_reg.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 40px;
+}
+li#cola {
+	font-size: 25px;
+	background-image: url(../imagenes/monstruos/drops/cola_nerg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 40px;
+}
+li#gema {
+	font-size: 25px;
+	background-image: url(../imagenes/monstruos/drops/nergigante_gem.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 40px;
+}
+.lista_sin_estilo{
+	list-style-type: none;
+}
